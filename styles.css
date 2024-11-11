@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.top{
+    background-image: url(/images/london.jpeg);
+    background-size: cover;
+    padding: 75px;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 2px 2px 2px #283618; 
+}
+
+#food, #visit {
+    color:#283618;
+    background-color:#f5cac3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+}
+#food{
+    font-size: 230%;
+    width:710px;
+}
+#visit {
+    font-size: 270%;
+    width:500px;
+}
+
+    
+#activity1, #activity2, #activity3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Ensure content is centered vertically */
+    text-align: center; /* Center text inside activity items */
+    width: 250px;     /* Set height for consistency */
+    color:#f5cac3;   
+}
+
+
+.middlesec{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 170%;
+    flex-wrap: wrap;
+    
+}
+
+#middle_heading{
+    color:#f5cac3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    font-size: 200%;
+}
+
+.activity{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.activity:hover{
+    transform: scale(1.5);
+
+}
+
+.middle{
+    color:#f5cac3;
+    background-color:#a3b18a;
+    padding-top: 15px;
+}
+
+.card{
+    
+    margin: 30px auto;
+    height:300px;
+    width: 450px;
+    padding: 15px;
+    display: flex;
+    border-bottom: 10px solid #a3b18a;
+    background-color: #f5cac3;
+    font-size: 135%;
+
+}
+
+#me{
+    flex:3;
+    
+}
+
+#card_text{
+    flex:4;
+    padding: 0 10px;
+}
+
